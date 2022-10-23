@@ -1,0 +1,54 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+
+h1, 
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*The period preceding card designates this as a class selector. 
+Any HTML element assigned to the class, card, will gain these property assignments from the CSS.*/
+.card { 
+    width: 80%; /*80% of the available width*/
+    margin: 40px auto; /*40px to the top and bottom, and the auto value to the left and right.*/
+    border: 5px solid gray; /*border with a width of 5px that is solid and gray*/
+    box-shadow: 5px 10px #888888; /*adds shadow effects around an element's frame. 
+    The X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); 
+    The Y offset is 10px and defines the extent on the Y axis (or just below the box)
+    A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. 
+    You can set multiple effects separated by commas. We haven’t defined the blur or spread radius here.*/
+  }

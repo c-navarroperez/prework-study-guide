@@ -9,9 +9,10 @@
   </head>
 
   <body>
-    <header id="header">
+    <header id="top">
       <h1 >Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
 
     <main>
@@ -28,6 +29,14 @@
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>width: 80%; /*80% of the available width*/</li>
+          <li>margin: 40px auto; /*40px to the top and bottom, and the auto value to the left and right.*/</li>
+          <li>border: 5px solid blue; /*border with a width of 5px that is solid and blue*/</li>
+          <li>box-shadow: 5px 10px #888888; /*adds shadow effects around an element's frame.
+              The X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); 
+              The Y offset is 10px and defines the extent on the Y axis (or just below the box)
+              A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color (#888888). 
+              You can set multiple effects separated by commas. We haven’t defined the blur or spread radius here.*/</li>
         </ul>
       </section>
    
@@ -36,20 +45,28 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <!--
           <li>git pull:  fetch and merge any commits from the tracking remote branch</li>
           <li>git add [file]:  add a file as it looks now to your next commit (stage) </li>
           <li>git commit</li>
           <li>git push</li>
           <li>git merge</li>
-          -->
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code: var shape = "circle";</li>
+          <li>Variables can contain strings: var topics = "HTML, CSS, Git, JavaScript";</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>If statements are a type of conditional statement. A tool to add logict to your code, that allow us to interrupt control flow.</li>
+          <li>An array is a single variable that is used to hold a group of data: var shapes = ["triangle", "square", "pentagon", "circle"];
+              To adress a specific item within the array we must adress the corresponting index value i.e. shapes[0]; = "triangle", shapes[1]; = "square", etc.</li>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over 
+              e.g.  for(var x=0; x < shapes.length; x++) {console.log(shapes[x]);}</li>
+          <li>Use the console.log() method to output a message to the web console, by adding an argument between the parenthesis.</li>
+          <li>function helloWorld() {}: A function is a set of instructions (between the curly brackets) that tells the computer how to perform a certain task.
+              A function must be called to be executed i.e. helloWorld()</li>
         </ul>
       </section>
     </main>
@@ -57,5 +74,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

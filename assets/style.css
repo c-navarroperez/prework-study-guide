@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+/*
 header {
     width: 100%;
     height: 120px;
@@ -16,6 +26,7 @@ footer {
     background-color: blue;
     color: white;
 }
+*/
 
 h1, 
 h2 {
@@ -45,7 +56,7 @@ Any HTML element assigned to the class, card, will gain these property assignmen
 .card { 
     width: 80%; /*80% of the available width*/
     margin: 40px auto; /*40px to the top and bottom, and the auto value to the left and right.*/
-    border: 5px solid gray; /*border with a width of 5px that is solid and gray*/
+    border: 5px solid blue; /*border with a width of 5px that is solid and blue (originally gray)*/
     box-shadow: 5px 10px #888888; /*adds shadow effects around an element's frame. 
     The X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); 
     The Y offset is 10px and defines the extent on the Y axis (or just below the box)

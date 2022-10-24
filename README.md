@@ -2,7 +2,7 @@
 
 ## Description
 
-This Prework Study Guide was created to provide the author with a handy reference on the basics of Front End development and for any boot camp students who may stumble upon it while going through the Prework. This guide will remain in development, being updated as the creator's knowledge grows. It contains prework related notes in a structured manner, to easily find tips and read information on:
+This Prework Study Guide was created to provide the author with a handy reference on the basics of Frontend development and for any boot camp students who may stumble upon it while going through the Prework. This guide will remain in development, being updated as the creator's knowledge grows. It contains prework related notes in a structured manner, to easily find tips and read information on:
 
 - ***HTML***: Hypertext Markup Language (HTML), to give the content structure as it will appear in your browser; This can be text, images, or parts of a page's layout.
 - ***CSS***: Cascading Style Sheets (CSS), to give the content created using HTML style; This might include fonts, colors, and spacing.

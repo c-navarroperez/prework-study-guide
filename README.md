@@ -18,7 +18,8 @@ N/A
 
 To use this Prework Study Guide, you can review the notes in the main four sections. Each section of the site contains notes about the main topics of the prework (HTML, CSS, Git, JavaScript) to diffeing degrees of depth. 
 
-For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A DevTools panel should open either below or to the side of the webpage in the browser. Navigate to the console, where you will see the JavaScript running, showing a list of topics the author learned from the prework along with a suggestion on which topic to study first. (HINT - If you don't like the first study option suggested, try refreshing the website.) 
+For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A DevTools panel should open either below or to the side of the webpage in the browser. Navigate to the console, where you will see the JavaScript running, showing a list of topics the author learned from the prework along with a suggestion on which topic to study first. 
+(HINT - If you don't like the first study option suggested, try refreshing the website.) 
 
 
 ## Credits
